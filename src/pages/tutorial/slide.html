@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar hideBackButton="true" color="danger">
+    <ion-title>
+      The Bridge
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="logo">
+
+    <ion-slides pager id="slideTeste">
+
+      <ion-slide style="background-color: white;">
+        <img src="../../assets/imgs/ica-slidebox-img-1.png" alt="img 1" class="imgSlide">
+        <h2>Bem vindo ao <strong style="color:brown;">The Bridge!</strong></h2>
+        <br>
+        <p><strong>The Bridge</strong> é um aplicativo para controle de elevação de ponte.</p>
+        <p>Acompanhe esse mini tutorial e aprenda a operá-lo.</p>
+      </ion-slide>
+    
+      <ion-slide style="background-color: white">
+          <img src="../../assets/imgs/ica-slidebox-img-2.png" alt="img 2" class="imgSlide">
+        <h2>Slide 2</h2>
+      </ion-slide>
+      
+      <ion-slide style="background-color: white">
+          <img src="../../assets/imgs/ica-slidebox-img-3.png" alt="img 3" class="imgSlide">
+        <h2>Slide 3</h2>
+      </ion-slide>
+
+      <ion-slide style="background-color: white">
+          <img src="../../assets/imgs/ica-slidebox-img-4.png" alt="img 4" class="imgSlide">
+          <br>
+          <h2>Preparado?</h2>
+          <br><br>
+          <button ion-button color="danger" id="continue" (click)="continueToComands()">Continue</button>
+        </ion-slide>
+      
+    </ion-slides>
+
+</ion-content>
