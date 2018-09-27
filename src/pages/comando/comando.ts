@@ -30,4 +30,8 @@ export class Comando {
     this.dbService.levantar();
   }
 
+  abaixar() {
+    this.dbService.abaixar();
+  }
+
 }

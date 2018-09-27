@@ -23,8 +23,11 @@ export class FirebaseServiceProvider {
   }
   
   levantar() {
-    //this.db.database.ref('COMANDOS/levantar').update(true);
-    this.db.database.ref('COMANDOS').update({"levantar": "true"});
+    this.db.database.ref('the_bridge').update({"comando": "true"});
+  }
+
+  abaixar() {
+    this.db.database.ref('the_bridge').update({"comando": "false"});
   }
 
 }

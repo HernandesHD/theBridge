@@ -8,34 +8,14 @@
 
 <ion-content padding class="logo">
     <br>
-    <p>Hernandes - page comando!</p>
+    <p style="text-align: center;">Hernandes - page comando!</p>
     <br>
  
     <ion-label style="text-align: center;">Item Status</ion-label>
     <div style="margin-left: 20%;">
         <button ion-button color="secondary" (click)="levantar()">Levantar</button>
-        <button ion-button color="danger" (click)="abaixarPonte()">Abaixar</button>
+        <button ion-button color="danger" (click)="abaixar()">Abaixar</button>
     </div>
     <br>
-
-    <ion-list>
-
-        <ion-item>
-            <ion-label fixed>Nome:</ion-label>
-            <ion-input type="text" [(ngModel)]="info.nome"></ion-input>
-        </ion-item>
-        <ion-item>
-            <ion-label fixed>Sobrenome:</ion-label>
-            <ion-input type="text" [(ngModel)]="info.sobre"></ion-input>
-        </ion-item>
-
-        <ion-item>
-            <ion-label fixed>Idade:</ion-label>
-            <ion-input type="text" [(ngModel)]="info.idade"></ion-input>
-        </ion-item>
-
-        <button ion-button full (click)="save(info)">Cadastrar</button>
-
-    </ion-list>
 
 </ion-content>
